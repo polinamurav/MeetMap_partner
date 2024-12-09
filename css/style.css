@@ -100,6 +100,7 @@ body {
     justify-content: center;
     color: #ffffff;
     margin: 0 auto;
+    border: 0;
 }
 
 .button svg {
@@ -225,4 +226,191 @@ body {
 
 .founder .button {
 
+}
+
+.team-main {
+    padding: 70px 0 115px;
+    background-color: #fff;
+}
+
+.team-main h2 {
+    font-family: UnboundedMedium, sans-serif;
+    font-size: 54px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #938CC3;
+    margin-bottom: 50px;
+}
+
+.team-description {
+    font-size: 21px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #222323;
+    margin-bottom: 45px;
+}
+
+.team-actions {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.button-team {
+    border: 2px solid #938CC3;
+    border-radius: 10px;
+    padding: 12px 24px;
+    width: 126px;
+    height: 35px;
+    background-color: white;
+    font-size: 15px;
+    color: #000;
+    margin: 0 16px 27px 0;
+}
+
+.slick-slide img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.slick-initialized .slick-slide {
+    text-align: center;
+}
+/*СТРЕЛКИ В СЛАЙДЕРЕ*/
+.slick-prev:before {
+    opacity: 0;
+}
+
+.slick-next:before {
+    opacity: 0;
+}
+
+.slick-prev {
+    width: 50px;
+    height: 50px;
+    /*margin-left: 20px;*/
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.9999 50C11.1928 50 -0.000133514 38.8071 -0.000133514 24.9999C-0.000133514 11.1928 11.1928 -0.000133514 24.9999 -0.000133514C38.8071 -0.000133514 50 11.1928 50 24.9999C50 38.8071 38.8071 50 24.9999 50ZM28.1362 34.991C28.3144 35.1292 28.5368 35.1975 28.7619 35.1834C28.9869 35.1692 29.199 35.0735 29.3585 34.9141L29.4354 34.8268C29.5736 34.6486 29.642 34.4261 29.6278 34.2011C29.6136 33.9761 29.5179 33.764 29.3585 33.6045L20.7547 24.9999L29.3585 16.3954L29.4354 16.3081C29.5805 16.1221 29.6491 15.8877 29.6272 15.6528C29.6053 15.4179 29.4946 15.2003 29.3176 15.0443C29.1407 14.8883 28.9109 14.8057 28.6751 14.8135C28.4393 14.8212 28.2154 14.9187 28.049 15.0859L18.7898 24.3452L18.7128 24.4325C18.5747 24.6107 18.5063 24.8331 18.5204 25.0582C18.5346 25.2832 18.6304 25.4953 18.7898 25.6548L28.049 34.9141L28.1362 34.991Z" fill="%23938CC3"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slick-next {
+    width: 50px;
+    height: 50px;
+    /*margin-left: 20px;*/
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.9999 50C11.1928 50 -0.000133514 38.8071 -0.000133514 24.9999C-0.000133514 11.1928 11.1928 -0.000133514 24.9999 -0.000133514C38.8071 -0.000133514 50 11.1928 50 24.9999C50 38.8071 38.8071 50 24.9999 50ZM28.1362 34.991C28.3144 35.1292 28.5368 35.1975 28.7619 35.1834C28.9869 35.1692 29.199 35.0735 29.3585 34.9141L29.4354 34.8268C29.5736 34.6486 29.642 34.4261 29.6278 34.2011C29.6136 33.9761 29.5179 33.764 29.3585 33.6045L20.7547 24.9999L29.3585 16.3954L29.4354 16.3081C29.5805 16.1221 29.6491 15.8877 29.6272 15.6528C29.6053 15.4179 29.4946 15.2003 29.3176 15.0443C29.1407 14.8883 28.9109 14.8057 28.6751 14.8135C28.4393 14.8212 28.2154 14.9187 28.049 15.0859L18.7898 24.3452L18.7128 24.4325C18.5747 24.6107 18.5063 24.8331 18.5204 25.0582C18.5346 25.2832 18.6304 25.4953 18.7898 25.6548L28.049 34.9141L28.1362 34.991Z" fill="%23938CC3"/></svg>');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: initial;
+    outline: initial;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path fill-rule="evenodd" clip-rule="evenodd" d="M24.9999 50C11.1928 50 -0.000133514 38.8071 -0.000133514 24.9999C-0.000133514 11.1928 11.1928 -0.000133514 24.9999 -0.000133514C38.8071 -0.000133514 50 11.1928 50 24.9999C50 38.8071 38.8071 50 24.9999 50ZM28.1362 34.991C28.3144 35.1292 28.5368 35.1975 28.7619 35.1834C28.9869 35.1692 29.199 35.0735 29.3585 34.9141L29.4354 34.8268C29.5736 34.6486 29.642 34.4261 29.6278 34.2011C29.6136 33.9761 29.5179 33.764 29.3585 33.6045L20.7547 24.9999L29.3585 16.3954L29.4354 16.3081C29.5805 16.1221 29.6491 15.8877 29.6272 15.6528C29.6053 15.4179 29.4946 15.2003 29.3176 15.0443C29.1407 14.8883 28.9109 14.8057 28.6751 14.8135C28.4393 14.8212 28.2154 14.9187 28.049 15.0859L18.7898 24.3452L18.7128 24.4325C18.5747 24.6107 18.5063 24.8331 18.5204 25.0582C18.5346 25.2832 18.6304 25.4953 18.7898 25.6548L28.049 34.9141L28.1362 34.991Z" fill="%23938CC3"/></svg>');
+}
+
+
+/*ТОЧКИ НА СЛАЙДЕРЕ------------*/
+.slick-dots li button {
+    border-width: 1px;
+    border-color: #938CC3;
+    border-style: solid;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.slick-dots {
+    right: -10px;
+}
+
+.slick-dots li button:before {
+    font-size: 0;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #938CC3;
+}
+
+.partner {
+    padding: 60px 0 110px;
+    background-color: white;
+}
+
+.partner h2 {
+    font-family: UnboundedMedium, sans-serif;
+    font-size: 54px;
+    line-height: 93%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #EB694B;
+    margin-bottom: 38px;
+}
+
+.partner-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(34, 35, 35, 0.8);
+    margin-bottom: 50px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partner-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partner-item {
+    border: 2px solid #938CC3;
+    border-radius: 20px;
+    width: 350px;
+    height: 254px;
+    box-sizing: border-box;
+    color: #222323;
+    padding: 40px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.partner-item:hover {
+    box-shadow: 0 12px 30px 0 rgba(71, 71, 71, 0.15);
+    background: #f9faff;
+    transform: translateY(-10px);
+}
+
+.partner-item:nth-child(2), .partner-item:nth-child(5) {
+    border: 2px solid #EB694B;
+}
+
+.partner-item:nth-child(3), .partner-item:nth-child(4) {
+    border: 2px solid #B6CB6E;
+}
+
+.partner-item-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.partner-title {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "Unbounded SemiBold", sans-serif;
+}
+
+.partner-item-descr {
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
 }
