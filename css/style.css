@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Unbounded;
+    src: url("../fonts/Unbounded-Regular.ttf");
+}
+
+@font-face {
+    font-family: UnboundedMedium;
+    src: url("../fonts/Unbounded-Medium.ttf");
+}
+
+@font-face {
+    font-family: UnboundedBold;
+    src: url("../fonts/Unbounded-Bold.ttf");
+}
+
+body {
+    font-family: Unbounded, sans-serif;
+    background-color: #222323;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 40px 80px 20px;
+}
+
+.menu {
+    padding-right: 30px;
+    border-right: 2px solid #ffffff;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    transition: all .3s;
+}
+
+.menu-item a {
+    font-size: 18px;
+    font-family: GilroyMedium, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.header .button {
+    border-radius: 30px;
+    width: 190px;
+    height: 57px;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.button {
+    border-radius: 15px;
+    padding: 12px 24px;
+    width: 277px;
+    height: 70px;
+    background-color: #EB694B;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Unbounded, sans-serif;
+    line-height: 139%;
+    letter-spacing: 0.01em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.button svg {
+    margin-left: 10px;
+}
+
+.main-content {
+    padding: 24px 0 230px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-content .container {
+    max-width: 500px;
+}
+
+.main-content h1 {
+    font-size: 72px;
+    line-height: 125%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #938CC3;
+    margin-bottom: 55px;
+    font-family: UnboundedBold, sans-serif;
+}
+
+.main-content-description {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blot {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.phone-main {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.phone-2 {
+    position: absolute;
+    left: 80px;
+    bottom: 0;
+}
+
+.about {
+    padding: 80px 0;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about h2 {
+    font-family: UnboundedMedium, sans-serif;
+    font-size: 54px;
+    text-align: center;
+    color: #B6CB6E;
+    margin-bottom: 60px;
+}
+
+.about-description {
+    font-size: 23px;
+    line-height: 143%;
+    text-align: justify;
+    color: #fff;
+    max-width: 600px;
+}
+
+.about-image {
+    width: 500px;
+}
+
+.founder {
+    padding: 120px 0 88px;
+}
+
+.name-title {
+    font-family: "Roboto Bold", sans-serif;
+    color: #938CC3;
+    font-size: 32px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.founder-name {
+    font-family: UnboundedMedium, sans-serif;
+    font-size: 54px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.founder-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+
+.founder-description {
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    text-align: justify;
+    max-width: 580px;
+}
+
+.founder-image {
+    max-width: 500px;
+}
+
+.founder .button {
+
+}
