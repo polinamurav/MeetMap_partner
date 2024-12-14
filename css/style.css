@@ -101,6 +101,12 @@ body {
     color: #ffffff;
     margin: 0 auto;
     border: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.button:hover {
+    background-color: #f65d3a;
 }
 
 .button svg {
@@ -268,6 +274,11 @@ body {
     margin: 0 16px 27px 0;
 }
 
+.button-team:hover {
+    background-color: #938CC3;
+    color: #fff;
+}
+
 .slick-slide img {
     width: 300px;
     margin: 0 auto;
@@ -413,4 +424,370 @@ body {
     font-size: 16px;
     line-height: 110%;
     letter-spacing: 0.02em;
+}
+
+.who {
+    padding: 60px 0 90px;
+}
+
+.who h2 {
+    font-size: 54px;
+    line-height: 93%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #EB694B;
+    margin-bottom: 60px;
+}
+
+.who-items {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.who-item {
+    border-radius: 20px;
+    width: 450px;
+    height: 586px;
+    box-shadow: 1px 1px 60px 20px rgba(147, 156, 163, 0.12);
+    box-sizing: border-box;
+    background-color: #B6CB6E;
+    padding: 40px 60px 60px;
+}
+
+.who-item:nth-child(2) {
+    background-color: transparent;
+    box-shadow: 0 1px 60px 20px rgba(147, 156, 163, 0.12);
+    border: 2px solid #F3EC7D;
+}
+
+.who-item-title {
+    font-size: 36px;
+    line-height: 83%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #000;
+    font-family: "Unbounded SemiBold", sans-serif;
+    margin-bottom: 50px;
+}
+
+.who-item-title.second-card {
+    color: #fff;
+}
+
+.who-item-descr ul li {
+    font-size: 21px;
+    line-height: 92%;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+.who-item:nth-child(2) .who-item-descr ul li{
+    color: #ffffff;
+}
+
+.who-item-descr li {
+    margin-bottom: 40px;
+}
+
+.investors {
+    padding: 75px 0;
+}
+
+.investors .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.investors-title {
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #f4f4f4;
+    width: 640px;
+}
+
+.investors-description {
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    color: #fff;
+    width: 442px;
+}
+
+.reviews {
+    padding: 60px 0 820px;
+}
+
+.reviews h2 {
+    font-size: 54px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #F3EC7D;
+    margin-bottom: 25px;
+}
+
+.reviews-descr {
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.reviews-clouds {
+    position: relative;
+}
+
+.reviews-cloud {
+    position: absolute;
+    top: 0;
+    left: -60px;
+}
+
+.reviews-cloud:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 355px;
+}
+
+.reviews-cloud:nth-child(3) {
+    position: absolute;
+    top: 0;
+    right: -60px;
+    left: initial;
+}
+
+.reviews-cloud:nth-child(4) {
+    position: absolute;
+    left: 0;
+    top: 340px;
+}
+
+.reviews-cloud:nth-child(5) {
+    position: absolute;
+    top: 400px;
+    left: 355px;
+}
+
+.reviews-cloud:nth-child(6) {
+    position: absolute;
+    top: 400px;
+    left: initial;
+    right: -15px;
+}
+
+.reviews-cloud:after {
+    content: 'Have a great potential';
+    font-size: 23px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.reviews-cloud:nth-child(2):after{
+    content: 'It would be a great way to broaden our audience';
+    width: 309px;
+    top: 170px;
+    left: 85px;
+}
+
+.reviews-cloud:nth-child(3):after{
+    content: 'Caring for the local community is a great value to us';
+    width: 309px;
+    top: 160px;
+    left: 75px;
+}
+
+.reviews-cloud:nth-child(4):after{
+    content: 'Please run fast! we need you very much!';
+    width: 309px;
+    top: 120px;
+    left: 55px;
+}
+
+.reviews-cloud:nth-child(5):after{
+    content: 'We just wanted to do more local and cultural events, but didn’t know how to do that';
+    width: 350px;
+    top: 160px;
+    left: 90px;
+}
+
+.reviews-cloud:nth-child(6):after{
+    content: 'It’s going to be something really big, second Facebook';
+    width: 309px;
+    top: 97px;
+    left: 35px;
+}
+
+.partner-us {
+    padding: 60px 0;
+}
+
+.partner-us h2 {
+    font-family: UnboundedMedium, sans-serif;
+    font-size: 54px;
+    text-align: center;
+    color: #F3EC7D;
+    margin-bottom: 40px;
+}
+
+.partner-us-description {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-main {
+    border-radius: 10px;
+    background-color: #F3EC7D;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.form-title {
+    font-family: "Unbounded SemiBold", sans-serif;
+    font-size: 36px;
+    line-height: 67%;
+    letter-spacing: 0.15em;
+    text-align: center;
+    color: #000;
+    margin-bottom: 35px;
+}
+
+.form {
+    max-width: 450px;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    margin-bottom: 45px;
+}
+
+.form label input {
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    height: 35px;
+    box-sizing: border-box;
+}
+
+.form label input:focus {
+    font-size: 21px;
+    outline: none;
+    padding-bottom: 0;
+}
+
+.form label input::placeholder {
+    font-size: 21px;
+    color: #000000;
+}
+
+.form .button {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.agree label {
+    display: flex;
+    flex-direction: row;
+}
+
+.form label input[type="checkbox"] {
+    border: 1px solid #222323;
+    width: 21px;
+    height: 21px;
+    appearance: none;
+    background: transparent;
+    accent-color: #B6CB6E;
+    margin-right: 10px;
+}
+
+.monster {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.monster2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.footer {
+    padding: 40px 0;
+}
+
+.footer .container {
+    border: 1px solid #F3EC7D;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .logo {
+    width: 262px;
+}
+
+.footer .logo img {
+    width: 100%;
+}
+
+.footer-title {
+    font-size: 28px;
+    line-height: 81%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    letter-spacing: 0.02em;
+    color: #a9a9a9;
+    text-decoration: none;
+}
+
+.contact-item svg {
+    margin-right: 24px;
+}
+
+.networks a {
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-right: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.networks a svg {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
 }
