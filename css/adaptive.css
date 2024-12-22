@@ -1,0 +1,428 @@
+@media screen and (max-width: 1229px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main {
+        overflow: hidden;
+    }
+    .reviews-clouds {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 1120px) {
+    .team-main {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .menu ul {
+        width: 340px;
+    }
+
+    .about .container {
+        flex-direction: column;
+    }
+
+    .about-description {
+        margin-bottom: 60px;
+    }
+
+    .founder {
+        padding-top: 60px;
+    }
+
+    .founder-info {
+        flex-direction: column;
+    }
+
+    .name-title {
+        text-align: center;
+    }
+
+    .founder-name {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .founder-image {
+        margin-bottom: 50px;
+    }
+
+    .investors .container {
+        flex-direction: column;
+    }
+
+    .investors-title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .investors-description {
+        text-align: center;
+    }
+
+    .reviews-clouds {
+        justify-content: center;
+    }
+
+    .footer .container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .phone-2 {
+        display: none;
+    }
+
+    .phone-main {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 956px) {
+    .phone-main {
+        position: relative;
+        right: 0;
+        justify-content: center;
+        display: flex;
+    }
+
+    .main-content {
+        padding-bottom: 40px;
+    }
+
+    .blot {
+        z-index: -1;
+        opacity: 80%;
+    }
+    .who-item {
+        margin-bottom: 40px;
+    }
+
+    .who {
+        padding-bottom: 40px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+
+    .footer-title {
+        text-align: center;
+    }
+
+    .contact-us {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .monster2 {
+        z-index: 0;
+    }
+
+    .monster {
+        z-index: 0;
+        opacity: 80%;
+    }
+
+    .form {
+        z-index: 2;
+    }
+
+    .agree label {
+        text-align: center;
+    }
+
+    .about-image {
+        max-width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .investors-title {
+        max-width: 300px;
+    }
+
+    .monster {
+        bottom: -110px;
+        left: -20px;
+        opacity: 100%;
+    }
+
+    .monster2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main-content h1 {
+        font-size: 45px;
+    }
+    .blot {
+        display: none;
+    }
+    .common-title {
+        font-size: 45px;
+    }
+    .investors {
+        padding: 20px 0;
+    }
+    .about-image {
+        max-width: 300px;
+    }
+
+    .who-item {
+        width: 350px;
+        height: 100%;
+        padding: 40px 30px 30px;
+    }
+
+    .investors-description {
+        max-width: 350px;
+    }
+
+    .contact-item {
+        font-size: 17px;
+    }
+
+    .footer .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .reviews-cloud:after {
+        font-size: 20px;
+    }
+
+    .founder-name {
+        font-size: 40px;
+    }
+
+    .partner-title {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+
+    .partner-item {
+        padding: 20px;
+        height: auto;
+    }
+
+    .partner-item-info {
+     margin-bottom: 20px;
+    }
+
+    .partner-item-descr {
+        font-size: 15px;
+    }
+
+    .who-item-descr ul li {
+        font-size: 17px;
+    }
+
+    .who-item-title {
+        font-size: 30px;
+    }
+
+    .investors-description {
+        max-width: 300px;
+    }
+
+    .reviews-cloud:nth-child(2):after {
+        width: 200px;
+    }
+
+    .reviews-cloud {
+        height: 300px;
+    }
+    .reviews-cloud svg {
+        height: 100%;
+    }
+
+    .reviews-cloud:after {
+        top: 120px;
+    }
+    .reviews-cloud:nth-child(2):after {
+        top: 100px;
+    }
+    .reviews-cloud:nth-child(3):after {
+        width: 200px;
+        top: 90px;
+    }
+    .reviews-cloud:nth-child(4):after {
+        width: 200px;
+    }
+    .reviews-cloud:nth-child(5):after {
+        top: 110px;
+        width: 240px;
+        font-size: 18px;
+    }
+    .reviews-cloud:nth-child(6):after {
+        width: 309px;
+        top: 110px;
+        left: -15px;
+    }
+    .contact-item svg {
+        margin-right: 5px;
+    }
+    .contact-item {
+        font-size: 16px;
+    }
+    .footer .logo {
+        width: 180px;
+    }
+    .footer-title {
+        font-size: 22px;
+    }
+    .monster {
+        position: relative;
+        bottom: 0;
+        width: 160px;
+    }
+    .monster img {
+        width: 100%;
+    }
+    .agree label {
+        margin-bottom: 0;
+    }
+    .form-main {
+        padding-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .header .container {
+        justify-content: space-between;
+    }
+
+    .header .logo {
+        margin-right: 0;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.73);
+        z-index: 100;
+    }
+
+    .menu .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: white;
+        position: absolute;
+        top: 45px;
+        left: 20px;
+
+    }
+
+    &.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-item {
+        margin: 25px 0;
+    }
+
+    .menu-item a {
+        color: white;
+        font-size: 23px;
+    }
+
+    .burger {
+        display: block;
+        width: 36px;
+    }
+}
+
+/*@media screen and (max-width: 650px) {*/
+/*    .main-content .networks-list {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .header .call {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .header .phone {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .header .logo {*/
+/*        margin-left: 0;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 768px) {*/
+/*    .menu {*/
+/*        display: flex;*/
+/*    }*/
+
+/*    .header .button {*/
+/*        font-size: 22px;*/
+/*    }*/
+
+/*    .main-content h1 {*/
+/*        font-size: 48px;*/
+/*    }*/
+
+/*    .about h2 {*/
+/*        font-size: 48px;*/
+/*    }*/
+
+/*    .about-description {*/
+/*        font-size: 20px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 1024px) {*/
+/*    .main-content h1 {*/
+/*        font-size: 62px;*/
+/*    }*/
+
+/*    .main-content-description {*/
+/*        font-size: 20px;*/
+/*        max-width: 500px;*/
+/*        margin: 0 auto;*/
+/*    }*/
+
+/*    .about h2 {*/
+/*        font-size: 54px;*/
+/*    }*/
+
+/*    .about-description {*/
+/*        font-size: 23px;*/
+/*    }*/
+
+/*    .header .container {*/
+/*        padding: 0 80px;*/
+/*    }*/
+
+/*    .menu ul {*/
+/*        gap: 30px;*/
+/*    }*/
+/*}*/

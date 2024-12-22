@@ -126,6 +126,7 @@ body {
 
 .main-content .container {
     max-width: 500px;
+    z-index: 100;
 }
 
 .main-content h1 {
@@ -157,12 +158,14 @@ body {
     position: absolute;
     top: 0;
     right: 50px;
+    z-index: -1;
 }
 
 .phone-2 {
     position: absolute;
     left: 80px;
     bottom: 0;
+    z-index: -1;
 }
 
 .about {
@@ -173,11 +176,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.common-title {
+    font-family: UnboundedMedium, sans-serif;
+    font-size: 54px;
 }
 
 .about h2 {
-    font-family: UnboundedMedium, sans-serif;
-    font-size: 54px;
     text-align: center;
     color: #B6CB6E;
     margin-bottom: 60px;
@@ -193,6 +199,10 @@ body {
 
 .about-image {
     width: 500px;
+}
+
+.about-image img {
+    width: 100%;
 }
 
 .founder {
@@ -222,6 +232,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 85px;
+    flex-wrap: wrap;
 }
 
 .founder-description {
@@ -235,6 +246,10 @@ body {
     max-width: 500px;
 }
 
+.founder-image img {
+    width: 100%;
+}
+
 .founder .button {
 
 }
@@ -245,8 +260,6 @@ body {
 }
 
 .team-main h2 {
-    font-family: UnboundedMedium, sans-serif;
-    font-size: 54px;
     letter-spacing: 0.03em;
     text-align: center;
     color: #938CC3;
@@ -265,6 +278,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: 50px;
+    flex-wrap: wrap;
 }
 
 .button-team {
@@ -357,8 +371,6 @@ body {
 }
 
 .partner h2 {
-    font-family: UnboundedMedium, sans-serif;
-    font-size: 54px;
     line-height: 93%;
     letter-spacing: 0.05em;
     text-align: center;
@@ -487,8 +499,6 @@ body {
 }
 
 .who h2 {
-    font-size: 54px;
-    line-height: 93%;
     letter-spacing: 0.05em;
     text-align: center;
     color: #EB694B;
@@ -499,6 +509,7 @@ body {
     display: flex;
     align-items: start;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .who-item {
@@ -554,6 +565,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .investors-title {
@@ -571,11 +583,10 @@ body {
 }
 
 .reviews {
-    padding: 60px 0 820px;
+    padding: 60px 0;
 }
 
 .reviews h2 {
-    font-size: 54px;
     letter-spacing: 0.03em;
     text-align: center;
     color: #F3EC7D;
@@ -595,46 +606,54 @@ body {
 }
 
 .reviews-clouds {
-    position: relative;
+    /*position: relative;*/
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .reviews-cloud {
-    position: absolute;
-    top: 0;
-    left: -60px;
+    /*position: absolute;*/
+    position: relative;
+    max-width: 400px;
+    /*top: 0;*/
+    /*left: -60px;*/
 }
 
-.reviews-cloud:nth-child(2) {
-    position: absolute;
-    top: 0;
-    left: 355px;
+.reviews-cloud svg {
+    width: 100%;
 }
 
-.reviews-cloud:nth-child(3) {
-    position: absolute;
-    top: 0;
-    right: -60px;
-    left: initial;
-}
+/*.reviews-cloud:nth-child(2) {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 355px;*/
+/*}*/
 
-.reviews-cloud:nth-child(4) {
-    position: absolute;
-    left: 0;
-    top: 340px;
-}
+/*.reviews-cloud:nth-child(3) {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: -60px;*/
+/*    left: initial;*/
+/*}*/
 
-.reviews-cloud:nth-child(5) {
-    position: absolute;
-    top: 400px;
-    left: 355px;
-}
+/*.reviews-cloud:nth-child(4) {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 340px;*/
+/*}*/
 
-.reviews-cloud:nth-child(6) {
-    position: absolute;
-    top: 400px;
-    left: initial;
-    right: -15px;
-}
+/*.reviews-cloud:nth-child(5) {*/
+/*    position: absolute;*/
+/*    top: 400px;*/
+/*    left: 355px;*/
+/*}*/
+
+/*.reviews-cloud:nth-child(6) {*/
+/*    position: absolute;*/
+/*    top: 400px;*/
+/*    left: initial;*/
+/*    right: -15px;*/
+/*}*/
 
 .reviews-cloud:after {
     content: 'Have a great potential';
@@ -651,14 +670,14 @@ body {
     content: 'It would be a great way to broaden our audience';
     width: 309px;
     top: 170px;
-    left: 85px;
+    left: 45px;
 }
 
 .reviews-cloud:nth-child(3):after{
     content: 'Caring for the local community is a great value to us';
     width: 309px;
     top: 160px;
-    left: 75px;
+    left: 45px;
 }
 
 .reviews-cloud:nth-child(4):after{
@@ -672,7 +691,7 @@ body {
     content: 'We just wanted to do more local and cultural events, but didn’t know how to do that';
     width: 350px;
     top: 160px;
-    left: 90px;
+    left: 35px;
 }
 
 .reviews-cloud:nth-child(6):after{
@@ -687,8 +706,6 @@ body {
 }
 
 .partner-us h2 {
-    font-family: UnboundedMedium, sans-serif;
-    font-size: 54px;
     text-align: center;
     color: #F3EC7D;
     margin-bottom: 40px;
@@ -717,7 +734,6 @@ body {
 .form-title {
     font-family: "Unbounded SemiBold", sans-serif;
     font-size: 36px;
-    line-height: 67%;
     letter-spacing: 0.15em;
     text-align: center;
     color: #000;
@@ -799,6 +815,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer .logo {
