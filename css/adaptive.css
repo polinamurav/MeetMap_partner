@@ -174,8 +174,35 @@
     .investors {
         padding: 20px 0;
     }
+    .founder-description {
+        font-size: 17px;
+    }
+    .about-description {
+        font-size: 17px;
+    }
+    .button {
+        padding: 12px;
+        width: 260px;
+        height: 55px;
+    }
+    .about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .about-description {
+        max-width: 95%;
+    }
     .about-image {
-        max-width: 300px;
+        max-width: 100%;
+    }
+    .founder-info {
+        margin-bottom: 45px;
+    }
+    .founder {
+        padding-bottom: 40px;
+    }
+    .reviews-descr {
+        font-size: 17px;
     }
 
     .who-item {
@@ -296,6 +323,23 @@
         padding-bottom: 0;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .popup-container {
+        max-width: 300px;
+        max-height: 440px;
+        padding: 10px;
+        overflow-y: scroll;
+    }
+    .partner-image.popup img {
+        width: 50px;
+    }
+    .partner-title.popup {
+        color: #000;
+        font-size: 19px;
+    }
+    .partner-item-descr.popup {
+        width: 270px;
+        font-size: 17px;
     }
 }
 
